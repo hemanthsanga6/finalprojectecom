@@ -1,8 +1,11 @@
 Hello Welcome!!!
 
-STEP 1: Activate the Environment
-        1.cd ecom env\scripts      (click enter)
-        2.activate                (click enter)
+STEP 1: Create and Activate the Environment
+	1.python3 -m venv /path/to/new/virtual/environment
+	Go to the final project directory
+	2.virtualenv env	
+        3.cd ecom env\scripts      (click enter)
+        4.activate                (click enter)
 
 STEP 2: Install the the required software
         1.py -m pip install -r requirements.txt         (click enter)
